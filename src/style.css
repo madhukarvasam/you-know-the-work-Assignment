@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+  background-color: #ffa1a9;
+}
+
+.image-container {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #2a2a63;
+  border-radius: 40px;
+  color: #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .image-container {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.image {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .image {
+    font-size: 30px;
+  }
+}
+
+.profile {
+  font-size: 8px;
+  color: #2a2a63;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    font-size: 12px;
+  }
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 30px;
+  }
+}
+
+.designation {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .designation {
+    font-size: 10px;
+  }
+}
+
+.first-row-text {
+  font-size: 10px;
+  color: #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .first-row-text {
+    font-size: 12px;
+  }
+}
+
+.name-container {
+  height: 140px;
+  border-right: 3px solid #2a2a63;
+  border-bottom: 3px solid #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .name-container {
+    height: 130px;
+  }
+}
+
+.description-container {
+  height: 140px;
+  border-left: 0px solid #2a2a63;
+  border-bottom: 3px solid #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .description-container {
+    height: 130px;
+  }
+}
+
+.year {
+  font-size: 10px;
+  color: #2a2a63;
+}
+
+.work-place {
+  font-size: 13px;
+  font-weight: 700;
+  color: #2a2a63;
+}
+
+.work-description {
+  margin-top: -6px;
+  font-size: 10px;
+  color: #2a2a63;
+}
+
+.skills-container {
+  height: 130px;
+  border-top: 3px solid #2a2a63;
+  border-right: 0px solid #2a2a63;
+  border-bottom: 3px solid #2a2a63;
+}
+
+.awards-container {
+  height: 130px;
+  border-top: 3px solid #2a2a63;
+  border-left: 3px solid #2a2a63;
+  border-bottom: 3px solid #2a2a63;
+}
+
+.skill {
+  width: 90px;
+  font-size: 10px;
+  color: #2a2a63;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #2a2a63;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+.dot-container {
+  margin-left: 20px;
+  height: 20px;
+  padding: 0px;
+}
+
+.skill-container {
+  height: 20px;
+}
+
+.education-container {
+  border-top: 3px solid #2a2a63;
+  border-bottom: 3px solid #2a2a63;
+}
+
+.intrest-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.each-intrest {
+  width: 100px;
+}
+
+.toggle-color {
+  font-size: 30px;
+  color: #ffa1a9;
+}
+
+.image-container-each {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #2a2a63;
+  border-radius: 40px;
+  color: #2a2a63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a63;
+}
+
+@media (min-width: 768px) {
+  .image-container-each {
+    height: 60px;
+    width: 60px;
+  }
+}
